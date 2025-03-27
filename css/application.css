@@ -68,3 +68,10 @@ th {
     background: #333;
     color: white;
 }
+#howto ol {
+    padding-left: 20px; 
+}
+
+#howto ol li {
+    margin-bottom: 15px; 
+}
