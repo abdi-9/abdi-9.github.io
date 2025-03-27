@@ -1,12 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>Application</title>
-        <link rel="stylesheet" href="css/application.css">
-    </head>
-    <body>
-        <h1>Page Heading</h1>
-        <p><a href="index.html" >Home</a></p>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archer Hero - Embedded Game</title>
+    <link rel="stylesheet" href="css/application.css">
+</head>
+<body>
+    <header>
+        <h1>Archer Hero</h1>
+        <nav>
+            <ul>
+                <li><a href="#overview">Overview</a></li>
+                <li><a href="#howto">How To Play</a></li>
+                <li><a href="#reference">Reference Guide</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="game">
+        <h2>Play Archer Hero</h2>
+        <iframe src="https://www.onlinegames.io/archer-hero/" width="800" height="600" frameborder="0" allowfullscreen></iframe>
+    </section>
+
+    <section id="overview">
+        <h2>Overview</h2>
+        <p>Archer Hero is an exciting bow-and-arrow game where players must eliminate enemies using precise shots. The game requires accuracy and strategy to defeat waves of opponents and progress through levels.</p>
+        
+    </section>
+
+    <section id="howto">
+        <h2>How To Play</h2>
+        <p>Follow these steps to play Archer Hero:</p>
+        <ol>
+            <li>Use your mouse or touch controls to aim your bow.</li><img src="images/archer1.png" width=100px alt="Archer Hero gameplay screenshot">
+            <li>Hold and release to adjust the strength of your shot.</li>
+            <li>Defeat enemies before they reach you.</li><img src="images/archer2.png" width=100px alt="Archer Hero Shooting at enemies">
+            <li>Progress through levels by eliminating all opponents.</li><img src="images/archer3.png" width=100px alt="Game level overview">
+        </ol>
+    </section>
+
+    <section id="reference">
+        <h2>Reference Guide</h2>
+        <table>
+            <tr>
+                <th>Action</th>
+                <th>Control</th>
+            </tr>
+            <tr>
+                <td>Aim</td>
+                <td>Mouse movement</td>
+            </tr>
+            <tr>
+                <td>Movement</td>
+                <td>WASD or arrow keys</td>
+            </tr>
+            <tr>
+                <td>Shoot</td>
+                <td>Space</td>
+            </tr>
+            <tr>
+                <td>Power Adjustment</td>
+                <td>Hold and release</td>
+            </tr>
+        </table>
+        <div class="linkreturn"><a href="#">Return To Top</a></div>
+    </section>
+
+    <footer>
+        <p><a href="index.html">Home</a></p>
+    </footer>
+</body>
 </html>

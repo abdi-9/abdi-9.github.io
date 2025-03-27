@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'HeadingFont';
+    src: url('fonts/heading-font.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'BodyFont';
+    src: url('fonts/body-font.woff2') format('woff2');
+}
+
+
+body {
+    font-family: 'BodyFont', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: 'HeadingFont', sans-serif;
+    color: #222;
+}
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background: #333;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+
+iframe {
+    border: 2px solid #444;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+
+table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #222;
+    padding: 10px;
+}
+
+th {
+    background: #333;
+    color: white;
+}
